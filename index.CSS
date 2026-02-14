@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.logo img{
+    border-radius: 50%;    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    border-color: black;
+    padding: 3px;
+}
+li a:hover{
+    background-color: white;
+    color: black;
+
+}
+.contener img{
+    border-radius: 10%;
+}
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    color: black;
+}
+section h1{
+    text-align: center;
+}
+.item{
+    display: flex;
+}
+.max{
+    width: 200px;
+    background-color: grey;
+    height: 10px;
+    border-radius: 10px;
+}
+.valeur{
+    width: 95%;
+    height: 10px;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+.item1{
+    display: flex;
+}
+.max1{
+    width: 200px;
+    background-color: grey;
+    height: 10px;
+    border-radius: 10px;
+}
+.valeur1{
+    width: 80%;
+    height: 10px;
+    background-color: coral;
+    border-radius: 10px;
+}
+header{
+    background-color: white;
+}
+.competence{
+    color: black;
+    display: inline-block;
+    
+}
+.item2{
+    display: flex;
+}
+.max2{
+    width: 200px;
+    background-color: grey;
+    height: 10px;
+    border-radius: 10px;
+}
+.valeur2{
+    width: 90%;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+.item{
+    justify-content: center;
+}
+.item1{
+    justify-content: center;
+}
+.item2{
+    justify-content: center;
+}
+.contact h1{
+    text-align: center;
+}
+.contact{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.contact fieldset{
+    text-align: center;
+    display: inline-block;
+    border-color: black;
+}
+.contact p{
+    text-align: center;
+}
